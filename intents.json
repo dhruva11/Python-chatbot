@@ -1,0 +1,45 @@
+{
+    "intents": 
+    [
+      {
+        "tag": "greeting",
+        "patterns": ["Hi", "Hello", "Hey"],
+        "responses": ["Hello! How can I help you?", "Hi there! What can I do for you today?"]
+      },
+      {
+        "tag": "goodbye",
+        "patterns": ["Goodbye", "See you later", "Bye"],
+        "responses": ["Goodbye! Have a great day!", "See you later!"]
+      },
+      {
+        "tag": "thanks",
+        "patterns": ["Thanks", "Thank you", "Appreciate it"],
+        "responses": ["You're welcome!", "No problem, happy to help!"]
+      },
+      {
+        "tag": "unknown",
+        "patterns": ["I don't know", "Not sure", "Sorry"],
+        "responses": ["I'm sorry to hear that. Is there anything else I can assist you with?"]
+      },
+      {
+        "tag": "weather",
+        "patterns": ["What's the weather like today?", "Tell me the weather", "Weather forecast"],
+        "responses": ["I'm sorry, I don't have real-time weather information. You can check a weather website or app for the latest updates."]
+      },
+      {
+        "tag": "time",
+        "patterns": ["What time is it?", "Tell me the time", "Current time"],
+        "responses": ["I'm sorry, I don't have access to real-time clock information. You can check your device's clock for the current time."]
+      },
+      {
+        "tag": "joke",
+        "patterns": ["Tell me a joke", "Give me a joke", "Joke time"],
+        "responses": ["Sure, here's one: Why don't scientists trust atoms? Because they make up everything!"]
+      },
+      {
+        "tag": "help",
+        "patterns": ["Help", "I need assistance", "Can you help me?"],
+        "responses": ["Of course! I'm here to help. What do you need assistance with?"]
+      }
+    ]
+  }
